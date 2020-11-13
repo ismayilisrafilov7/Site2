@@ -1,0 +1,18 @@
+@mixin hov {
+    &:hover {
+        color: white;
+        cursor: pointer;
+        transition: 0.3ms;
+        border-bottom: 2px solid red;
+
+    }
+}
+
+@mixin cent {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    font-size: 20px;
+    padding: 50px 0;
+}
